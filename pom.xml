@@ -28,7 +28,6 @@
         <java.compiler.showWarnings>true</java.compiler.showWarnings>
         <java.source.version>1.6</java.source.version>
         <java.target.version>1.6</java.target.version>
-        <lumify.maven.repo>http://bits.lumify.io/m2/</lumify.maven.repo>
         <maven.build.timestamp.format>EEE MMM dd HH:mm z yyyy</maven.build.timestamp.format>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -91,7 +90,7 @@
     <repositories>
         <repository>
             <id>lumify-releases</id>
-            <url>${lumify.maven.repo}</url>
+            <url>http://bits.lumify.io/m2/</url>
         </repository>
         <repository>
             <snapshots>
@@ -99,7 +98,7 @@
                 <updatePolicy>always</updatePolicy>
             </snapshots>
             <id>lumify-snapshots</id>
-            <url>${lumify.maven.repo}</url>
+            <url>http://bits.lumify.io/m2/</url>
         </repository>
         <repository>
             <id>com.cloudera</id>
