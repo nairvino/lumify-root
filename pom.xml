@@ -767,6 +767,14 @@
                         </reportPlugins>
                         <port>9000</port>
                     </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <configuration>
                     <executions>
                         <execution>
                             <id>attach-descriptor</id>
@@ -776,13 +784,7 @@
                             </goals>
                         </execution>
                     </executions>
-                </plugin>
-            </plugins>
-        </pluginManagement>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-site-plugin</artifactId>
+                </configuration>
             </plugin>
         </plugins>
     </build>
